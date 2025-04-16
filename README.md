@@ -51,7 +51,7 @@ S805 类似架构设备等·····
 ```sh
 sudo apt update
 sudo apt install git -y
-sudo rm -r WKY-Pwn
+sudo rm -r WankeCloudPPPWN 
 git clone https://github.com/biilyz/WankeCloudPPPWN 
 sudo mkdir /boot/firmware/
 cd WankeCloudPPPWN
