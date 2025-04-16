@@ -52,9 +52,9 @@ S805 类似架构设备等·····
 sudo apt update
 sudo apt install git -y
 sudo rm -r WKY-Pwn
-git clone https://github.com/Mintneko/WKY-Pwn 
+git clone https://github.com/biilyz/WankeCloudPPPWN 
 sudo mkdir /boot/firmware/
-cd WKY-Pwn
+cd WankeCloudPPPWN
 sudo cp -r PPPwn /boot/firmware/
 cd /boot/firmware/PPPwn
 sudo chmod 777 *
