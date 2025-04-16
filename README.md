@@ -60,21 +60,7 @@ cd /boot/firmware/PPPwn
 sudo chmod 777 *
 sudo bash install.sh
 ```
-### 中国大陆用户可以执行以下汉化脚本
-```sh
-sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime #修改时区为中国大陆  
-bash <(curl -sSL https://linuxmirrors.cn/main.sh)  #选1即可
-sudo apt update
-sudo apt install git unzip wget -y
-sudo rm -r WKY-Pwn-main main.zip WKY-Pwn
-wget https://mirror.ghproxy.com/https://github.com/Mintneko/WKY-Pwn/archive/refs/heads/main.zip  && unzip main.zip
-sudo mkdir /boot/firmware/
-cd WKY-Pwn-main
-sudo cp -r PPPwn /boot/firmware/
-cd /boot/firmware/PPPwn
-sudo chmod 777 *
-sudo bash install_ch.sh
-```
+
 <br>
 
 在安装过程中，您将被要求设置一些选项.<br>
